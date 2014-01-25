@@ -1,6 +1,4 @@
-sparrow
-=======
-
+/*
  *	------------------------------------------------------------------------------------------------
  *	-	########  ########		   #		 #########	 #########	    #########   #     	   #   -
  *	-  #		  #		  #   	  #	#   	 #		  #	 #		  #    #         #	#		   #   -
@@ -13,3 +11,19 @@ sparrow
  *	-  #########  #		   #			   # #		#	 #		#       #########	 #		  #    -
  *  -                 																			   -
  *  ------------------------------------------------------------------------------------------------
+ *
+ * types.h
+ *
+ *  Created on: Jan 18, 2014
+ *      Author: sihai
+ */
+
+#ifndef _SPARROW_TYPES_H_
+#define _SPARROW_TYPES_H_
+
+typedef unsigned int   	uint;
+typedef unsigned short 	ushort;
+typedef unsigned char  	uchar;
+typedef uint 			pde_t;
+
+#endif /* _SPARROW_TYPES_H_ */
